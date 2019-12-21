@@ -1,0 +1,23 @@
+.withdraw-transaction{
+  background-color: #dd2c00;
+  height: 25px;
+  width: 75px;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.deposit-transaction{
+  background-color: #00c853;
+  height: 25px;
+  width: 75px;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nominal{
+  text-align: right;
+}

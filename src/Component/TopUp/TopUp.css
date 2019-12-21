@@ -1,0 +1,15 @@
+.modal-body{
+  margin:2% 12%;
+}
+
+.error-message-text{
+  color: #dd2c00;
+}
+
+#top-up-field{
+  display: inline;
+}
+
+#top-up-button{
+  margin-left: 5%;
+}

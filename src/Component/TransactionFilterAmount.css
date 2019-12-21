@@ -1,0 +1,20 @@
+.transaction-filter__range {
+    margin-top: 10px;
+    margin-left: 8%;
+    width: 50%
+}
+
+.transaction-filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.transaction-filter__input-label {
+    width: 26%;
+    padding-left: 10px;
+}
+
+.range {
+    font-size: 16px;
+    margin-left: 45%;
+}

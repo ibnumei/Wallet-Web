@@ -1,0 +1,57 @@
+#transaction-list{
+    overflow: auto;
+    height: 500px
+}
+
+#transaction-list-table{
+    margin: 0;
+}
+
+.transaction__container{
+    padding-top: 60px;
+}
+
+#transaction-sort-filter {
+    height: 375px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.transaction-sort-filter__button {
+    margin-top: 50%;
+}
+
+.modal-header{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.Modal {
+    position: absolute;
+    top: 200px;
+    left: 278px;
+    right: 500px;
+    bottom: 250px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.1);
+}
+
+.close-button{
+    background-color: transparent;
+}
+
+.sort-filter-button{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    border: 2px solid lightgrey;
+    border-radius: 25px;
+}

@@ -1,0 +1,5 @@
+.table-payee{
+    overflow-y: scroll;
+    height: 500px;
+    margin-bottom: 20px;
+}

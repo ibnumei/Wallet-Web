@@ -1,0 +1,27 @@
+.login-box{
+    padding: 2% 2%;
+    font-size: 56px;
+    width: 100%;
+}
+
+#login-button{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10%;
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#email{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#password{
+    margin-bottom: 5%;
+}
+
+#error-text{
+    font-size: 12px;
+}

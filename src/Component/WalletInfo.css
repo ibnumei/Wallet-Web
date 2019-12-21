@@ -1,0 +1,35 @@
+.dashboard-info__wallet{
+  left: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 2% auto;
+}
+
+.dashboard-info__wallet-balance{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card.dashboard-info__wallet .card-header{
+  /*background-color: #42A5F5;*/
+  /*color: #d81b60;*/
+}
+
+.card.dashboard-info__wallet{
+  /*background-color: #42A5F5;*/
+  /*color: #d81b60;*/
+}
+
+.dashboard-info__wallet-balance-text{
+  margin-left: 1%;
+  color: #d81b60;
+}
+
+.dashboard-info__wallet .card-content h1{
+  color: #138ee6;
+}

@@ -1,0 +1,77 @@
+.success-notification{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2%;
+  background-color: #00c853;
+  color: white;
+  height: 50px;
+  width: 99%;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: 5px 6px 9px 0 rgba(0,0,0,.07), 1px 2px 5px 0 rgba(0,0,0,.06);
+  box-sizing: border-box;
+}
+
+.error-notification{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  background-color: #dd2c00;
+  color: white;
+  height: 50px;
+  width: 99%;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: 5px 6px 9px 0 rgba(0,0,0,.07), 1px 2px 5px 0 rgba(0,0,0,.06);
+  animation-duration: .8s;
+  animation-name: fadeIn;
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  from{
+    opacity: 100%;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+.closed{
+  display: none;
+}
+
+.message{
+  flex: 1
+}
+
+.close-button{
+  background-color: transparent;
+  color:white;
+  border: solid transparent 1px;
+  width: 1%;
+}
+

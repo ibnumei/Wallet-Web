@@ -1,0 +1,60 @@
+.dashboard-info{
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.recent-transactions{
+  width: 101%;
+}
+
+.main-content{
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+.dashboard-info__wallet-card-footer{
+  padding-bottom: 15px;
+}
+
+.dashboard-info__wallet-card-footer--button-top-up{
+  margin-right: 10px;
+  width: 30%;
+}
+
+.dashboard-info__wallet-card-footer--button-transfer{
+  width: 30%;
+}
+
+.top-up__modal {
+  position: absolute;
+  top: 38%;
+  left: 65%;
+  right: 39px;
+  bottom: 36%;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 100%;
+  padding: 10px;
+}
+
+.top-up__modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-header{
+  margin-left: 2%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.modal-header h3{
+  color: #F79C06;
+}
+
+input top-up-field.form-control{
+  padding-left: 5px;
+}

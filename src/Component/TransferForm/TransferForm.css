@@ -1,0 +1,33 @@
+#payee-cashtag{
+    display: inline;
+    width:30%;
+    margin-left: 2%;
+}
+
+#check-button, #submit-button{
+    margin-left:2%;
+    border-radius: 25px;
+}
+
+#submit-button{
+    width: 150px;
+    margin-top: 7%;
+}
+
+#nominal, #description{
+    margin-top: 2%;
+    display: inline;
+    width:90%;
+}
+
+#transfer-form-container{
+    margin-bottom: 5%;
+}
+
+.checked-button{
+    color:white;
+    background-color: #00c853;
+    border-radius: 25px;
+    width: 100px;
+    height: 38px;
+}

@@ -1,0 +1,43 @@
+.payee-button {
+    border-radius: 25px;
+}
+
+.check-button {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.form-group{
+    margin-right: 20px;
+}
+
+.title-form-payee{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.payee{
+    display: flex;
+}
+
+#cashtag{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    margin-left: 2%;
+    width: 90%
+}
+
+#nominal {
+    width: 100%;
+}
+
+#description {
+    width: 100%;
+}
+
+.card-content {
+    margin-bottom: 20px;
+}

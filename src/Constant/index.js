@@ -1,0 +1,5 @@
+export default {
+  MIN_TRANSACTION_AMOUNT: 10000,
+  MAX_TRANSACTION_AMOUNT: 10000000,
+  BASE_URL: 'http://localhost:3000'
+};
